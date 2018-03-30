@@ -10,13 +10,13 @@ This module can be useful to check if the camera is already in use or notify you
 ## Requirements
 
 - macOS 10.11+
-- Xcode 9+
-- Swift 4+
+- Xcode 9.3+
+- Swift 4.1+
 
 
 ## Install
 
-With [SPM](https://swift.org/package-manager/):
+#### SPM
 
 ```swift
 .package(url: "https://github.com/sindresorhus/is-camera-on", from: "2.0.0")

@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.1
 import PackageDescription
 
 let package = Package(
@@ -6,10 +6,14 @@ let package = Package(
 	products: [
 		.library(
 			name: "IsCameraOn",
-			targets: ["IsCameraOn"]
+			targets: [
+				"IsCameraOn"
+			]
 		)
 	],
 	targets: [
-		.target(name: "IsCameraOn")
+		.target(
+			name: "IsCameraOn"
+		)
 	]
 )
