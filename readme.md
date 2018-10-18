@@ -16,7 +16,7 @@ This module can be useful to check if the camera is already in use or notify you
 
 ## Install
 
-#### SPM
+#### SwiftPM
 
 ```swift
 .package(url: "https://github.com/sindresorhus/is-camera-on", from: "2.0.0")
